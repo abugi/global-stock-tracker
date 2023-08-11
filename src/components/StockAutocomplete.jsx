@@ -42,7 +42,7 @@ export const StockAutocomplete = () => {
           name="name"
           id="name"
           className="block w-full border-0 placeholder-gray-500 sm:text-sm focus:outline-none py-2"
-          placeholder="Search..."
+          placeholder="Enter company name..."
           value={searchTerm}
           onChange={handleInputChange}
         />
